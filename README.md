@@ -18,3 +18,5 @@
     <br />
   </p>
 </div>
+
+[linkedin-url]: https://www.linkedin.com/in/fazilbaghirzade
