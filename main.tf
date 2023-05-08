@@ -83,7 +83,7 @@ resource "panos_ipsec_tunnel_proxy_id_ipv4" "PartnerProxyID1" {
 }
 
 # Policy rule
-resource "panos_security_policy" "example" {
+resource "panos_security_policy" "allowIpsecTraffic" {
     rule {
         name = "allow ipsec traffic"
         audit_comment = "Initial config"
